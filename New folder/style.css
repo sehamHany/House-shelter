@@ -1,0 +1,80 @@
+/* general styling */
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #f1fbff;
+}
+.w-100{
+    height: 100vh;
+}
+/* navbar style */
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    font-weight:700;
+    letter-spacing:2px;
+
+}
+.navbar-brand span{
+    color: rgb(60, 209, 110);
+}
+.navbar-nav a{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item:hover{
+    border-bottom: 1px solid rgb(60, 209, 110);;
+}
+/* slider style */
+.carousel-inner{
+    z-index: 0;
+}
+ .carousel-inner::before{ 
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.carousel-item{
+    height: 100vh;
+    min-height:300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 2px;
+
+}.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+/* sections style */
+.section-padding{
+    padding:80px 0;
+}
+.section-header{
+    text-align: center;
+}
+.card-body{
+    color: #000;
+    background-color:#fff;
+}
+.card-body:hover{
+    color: #fff;
+    background-color: #000;
+    
+}
+
